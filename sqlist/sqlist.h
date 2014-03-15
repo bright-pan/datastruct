@@ -38,3 +38,15 @@ sqlist_insert(SQLIST_TYPEDEF *sqlist, int index, ELEM_TYPEDEF elem);
 
 STATUS
 sqlist_traverse(SQLIST_TYPEDEF *sqlist);
+
+SQLIST_TYPEDEF *
+sqlist_create(SQLIST_TYPEDEF *sqlist, int numbers);
+
+STATUS
+sqlist_is_empty(SQLIST_TYPEDEF *sqlist);
+
+STATUS
+sqlist_clear(SQLIST_TYPEDEF *sqlist);
+
+STATUS
+sqlist_get(SQLIST_TYPEDEF *sqlist, int index, ELEM_TYPEDEF *elem);
